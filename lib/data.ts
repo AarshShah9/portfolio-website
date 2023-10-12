@@ -41,7 +41,7 @@ export const experiencesData = [
         title: "Software Engineering",
         location: "Calgary, AB",
         description:
-            "3.89/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2023). " +
+            "3.89/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2023)." +
             "Extra-Curriculars: TechStartUCalgary, Relectric",
         icon: React.createElement(LuGraduationCap),
         date: "2021 - Present",
@@ -95,8 +95,7 @@ export const projectsData = [
     {
         title: "Doomsday Program",
         description:
-            "As a kid I had this trick where you give me any date in the past or future and I could give you the day of the week. I recreated the algorithm I did in my head " +
-            "in Python",
+            "As a kid I had this trick where you give me any date in the past or future and I could give you the day of the week. I recreated the algorithm I did in my head in Python.",
         tags: ["Python"],
         imageUrl: doomsday,
         link: "https://github.com/AarshShah9/DoomsdayProgram",
@@ -143,7 +142,7 @@ export const projectsData = [
     {
         title: "Data Structure Library",
         description:
-            "Crafted a versatile custom library, with with JUnit test suite.",
+            "Crafted a versatile custom library, with JUnit test suite.",
         tags: ["Java", "JUnit", "Maven"],
         imageUrl: DataStructs,
         link: "https://github.com/AarshShah9/Data-Structures-Library",
