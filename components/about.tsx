@@ -20,7 +20,7 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
-                I am 3rd Year Software Engineering Student at the University of Calgary
+                I am a SWE Student (currently on my internship year) at the University of Calgary
             </p>
 
             <p>

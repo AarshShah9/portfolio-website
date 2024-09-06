@@ -3,11 +3,13 @@ import {FaPython, FaReact} from "react-icons/fa";
 import {LuGraduationCap} from "react-icons/lu";
 import TheLastShowImg from "@/public/TheLastShowImage.jpg";
 import BandistLogo from "@/public/BandistLogo.png";
+import CampusBuddyLogo from "@/public/CampusBuddyIcon.png";
 import DataStructs from "@/public/datastructures.jpg";
 import wordle from "@/public/wordle.jpg";
 import doomsday from "@/public/JohnConway.jpg";
 import flames from "@/public/flames.png";
 import balancr from "@/public/balancr.png";
+import Deer from "@/public/deer.jpg";
 
 export const links = [
     {
@@ -41,8 +43,8 @@ export const experiencesData = [
         title: "Software Engineering",
         location: "Calgary, AB",
         description:
-            "3.89/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2023)." +
-            "Extra-Curriculars: TechStartUCalgary, Relectric",
+            "3.92/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2024)." +
+            " Extra-Curriculars: TechStartUCalgary, Relectric",
         icon: React.createElement(LuGraduationCap),
         date: "2021 - Present",
     },
@@ -52,7 +54,7 @@ export const experiencesData = [
         description:
             "Electrifying a 1966 Volvo P220.",
         icon: React.createElement(FaReact),
-        date: "Jan 2022 - April 2023",
+        date: "Jan 2022 - Dec 2022",
     },
     {
         title: "Data & Analytics Intern - Olsen Consulting",
@@ -62,7 +64,6 @@ export const experiencesData = [
         icon: React.createElement(FaPython),
         date: "June 2022 - Aug 2022",
     },
-
     {
         title: "Software Developer Intern - Arcurve Inc.",
         location: "Calgary, AB",
@@ -75,14 +76,38 @@ export const experiencesData = [
         title: "Project Manager - Tech Start UCalgary",
         location: "Calgary, AB",
         description:
-            "Leading a team to build a campus focused start up.",
+            "Led a team of 8 engineers, business strategists and UI designers to build a CampusBuddy, a mobile app connecting university students.",
         icon: React.createElement(FaReact),
-        date: "Sept 2023 - Present",
+        date: "Sept 2023 - June 2024",
+    },
+    {
+        title: "Software Developer Intern - Arcurve Inc.",
+        location: "Calgary, AB",
+        description:
+            "Mission critical client project using .NET, C#, and MS SQL. As well as Python and Databricks for data engineering.",
+        icon: React.createElement(FaReact),
+        date: "May 2024 - Dec 2024",
+    },
+    {
+        title: "President - Tech Start UCalgary",
+        location: "Calgary, AB",
+        description:
+            "Building a space for 60 student entrepreneurs to create innovative, cutting-edge startups that solve real problems.",
+        icon: React.createElement(FaReact),
+        date: "May 2024 - Present",
     },
 
 ] as const;
 
 export const projectsData = [
+    {
+        title: "CampusBuddy",
+        description:
+            "A React Native application connecting university student together through events, posts exclusive initiatives.",
+        tags: ["React Native", "TypeScript", "MySQL", "Prisma", "Node.js", "Express", "AWS"],
+        imageUrl: CampusBuddyLogo,
+        link: "https://github.com/AarshShah9/CampusBuddy/",
+    },
     {
         title: "Bandist",
         description:
@@ -91,7 +116,6 @@ export const projectsData = [
         imageUrl: BandistLogo,
         link: "https://github.com/techstartucalgary/Bandist/tree/dev",
     },
-
     {
         title: "Doomsday Program",
         description:
@@ -108,6 +132,15 @@ export const projectsData = [
         tags: ["JavaScript", "HTML", "CSS"],
         imageUrl: wordle,
         link: "https://github.com/AarshShah9/Wordle-Game",
+
+    },
+    {
+        title: "Wildlife Rescue Scheduler",
+        description:
+            "A Java application using Java Swing that schedules tasks based on a MySQL database.",
+        tags: ["Java", "MySQL", "Java Swing"],
+        imageUrl: Deer,
+        link: "https://github.com/AarshShah9/Wildlife-Rescue-Scheduler/",
 
     },
     {
@@ -157,6 +190,7 @@ export const skillsData = [
     "JavaScript",
     "TypeScript",
     "React",
+    "Go",
     ".NET",
     "C#",
     "C/C++",
@@ -169,14 +203,14 @@ export const skillsData = [
     "REST",
     "Express",
     "Python",
-  "Java",
-  "MySQL",
-  "Flutter",
-  "Dart",
-  "Bootstrap",
-  "Entity Framework",
-  "tRPC",
-  "AWS",
-  "Linux",
-  "Figma"
+    "Java",
+    "MySQL",
+    "Flutter",
+    "Dart",
+    "Bootstrap",
+    "Entity Framework",
+    "tRPC",
+    "AWS",
+    "Linux",
+    "Figma"
 ] as const;

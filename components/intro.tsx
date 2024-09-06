@@ -65,6 +65,8 @@ export default function Intro() {
                     text={["Hello, I'm Aarsh.",
                         "I love to code.",
                         "I like Justin Bieber.",
+                        "I am originally from Sask",
+                        "I enjoy playing basketball."
                     ]}
                     loop={true}
                     delay={2500}
