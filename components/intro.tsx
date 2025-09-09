@@ -66,7 +66,8 @@ export default function Intro() {
                         "I love to code.",
                         "I like Justin Bieber.",
                         "I am originally from Sask",
-                        "I enjoy playing basketball."
+                        "I enjoy playing basketball.",
+                        "I once almost qualified for Fortnite World Cup"
                     ]}
                     loop={true}
                     delay={2500}

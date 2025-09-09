@@ -10,6 +10,9 @@ import doomsday from "@/public/JohnConway.jpg";
 import flames from "@/public/flames.png";
 import balancr from "@/public/balancr.png";
 import Deer from "@/public/deer.jpg";
+import Tether from "@/public/tether.png"
+import ReliefMap from "@/public/ReliefMap.png"
+import CleanCraving from "@/public/CleanCraving.png"
 
 export const links = [
     {
@@ -40,15 +43,6 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Software Engineering",
-        location: "Calgary, AB",
-        description:
-            "3.92/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2024)." +
-            " Extra-Curriculars: TechStartUCalgary, Relectric",
-        icon: React.createElement(LuGraduationCap),
-        date: "2021 - Present",
-    },
-    {
         title: "Software & Geomatics Engineer - Relectric Car Team",
         location: "Calgary, AB",
         description:
@@ -65,7 +59,7 @@ export const experiencesData = [
         date: "June 2022 - Aug 2022",
     },
     {
-        title: "Software Developer Intern - Arcurve Inc.",
+        title: "Software Engineer, Intern - Arcurve Inc.",
         location: "Calgary, AB",
         description:
             "End to end, full stack development for a client facing project in an Agile environment.",
@@ -81,7 +75,7 @@ export const experiencesData = [
         date: "Sept 2023 - June 2024",
     },
     {
-        title: "Software Developer Intern - Arcurve Inc.",
+        title: "Software Engineer, Intern - Arcurve Inc.",
         location: "Calgary, AB",
         description:
             "Mission critical client project using .NET, C#, and MS SQL. As well as Python and Databricks for data engineering.",
@@ -92,12 +86,36 @@ export const experiencesData = [
         title: "President - Tech Start UCalgary",
         location: "Calgary, AB",
         description:
-            "Building a space for 60 student entrepreneurs to create innovative, cutting-edge startups that solve real problems.",
+            "Building a space for 200+ student entrepreneurs to create innovative, cutting-edge startups that solve real problems.",
         icon: React.createElement(FaReact),
-        date: "May 2024 - Present",
+        date: "May 2024 - May 2025",
     },
-
-] as const;
+    {
+        title: "Undergraduate Researcher - SE-ALL Lab (U of C)",
+        location: "Calgary, AB",
+        description:
+            "Leading research on using LLMs to support software engineers with ADHD. Results accepted to 40th IEEE/ACM International Conference on Automated Software Engineering, ASE 2025.",
+        icon: React.createElement(FaReact),
+        date: "May 2025 - Aug 2025",
+    },
+    {
+        title: "Software Engineer, Intern - MedMe Health (YC W21)",
+        location: "Calgary, AB",
+        description:
+            "Writing full stack features to support pharmacists to become community healthcare hubs.",
+        icon: React.createElement(FaReact),
+        date: "May 2025 - Aug 2025",
+    },
+    {
+        title: "Software Engineering",
+        location: "Calgary, AB",
+        description:
+            "3.92/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2024)." +
+            " Extra-Curriculars: TechStartUCalgary, Relectric",
+        icon: React.createElement(LuGraduationCap),
+        date: "2021 - Present",
+    },
+];
 
 export const projectsData = [
     {
@@ -109,9 +127,31 @@ export const projectsData = [
         link: "https://github.com/AarshShah9/CampusBuddy/",
     },
     {
+        title: "Tether",
+        description: "A dock created with React, TypeScript, Electron and Flask to support SWE's with ADHD.",
+        tags: ["Electron", "TypeScript", "Flask", "Python", "LangChain", "React", "Gemini"],
+        imageUrl: Tether,
+        link: "https://github.com/SeallLab/Tether"
+        
+    },
+    {
+        title: "Hack the Change 2024",
+        description: "A global map that identifies crisies going on and the organizations that are supporting.",
+        tags: ["Next.js", "Gemini", "OpenStreetMap"],
+        imageUrl: ReliefMap,
+        link: "https://github.com/AarshShah9/Relief-Map"
+    },
+    {
+        title: "nwHacks2025",
+        description: "CleanCraving, an all in one solution for recipes, food tracking and food waste.",
+        tags: ["React Native", "Flask", "Python", "TypeScript", "Gemini"],
+        imageUrl: CleanCraving,
+        link: "https://github.com/AarshShah9/nwHacks2025"
+    },
+    {
         title: "Bandist",
         description:
-            "Collaboratively built an open-source social app streamlining event awareness using Flutter, Dart, Python & Django using OAuth 2.0 with Spotify’s REST Web API.",
+            "Collaboratively built an open-source social app streamlining event awareness using Flutter, Dart, Python & Django using OAuth 2.0 with Spotify's REST Web API.",
         tags: ["Flutter", "Dart", "SQLite", "Django", "Python"],
         imageUrl: BandistLogo,
         link: "https://github.com/techstartucalgary/Bandist/tree/dev",
@@ -185,32 +225,30 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    "HTML",
-    "CSS",
-    "JavaScript",
     "TypeScript",
     "React",
-    "Go",
+    "Node.js",
+    "PostgreSQL",
+    "Python",
+    "Flask",
+    "Next.js",
+    "Nest.js",
     ".NET",
     "C#",
-    "C/C++",
-    "Next.js",
-    "Node.js",
     "Git",
-    "Tailwind CSS",
+    "TailwindCSS",
     "Prisma",
-    "MongoDB",
     "REST",
+    "GraphQL",
     "Express",
-    "Python",
+    "Spring",
     "Java",
-    "MySQL",
     "Flutter",
     "Dart",
-    "Bootstrap",
-    "Entity Framework",
     "tRPC",
     "AWS",
     "Linux",
-    "Figma"
+    "Figma",
+    "HTML",
+    "CSS",
 ] as const;
