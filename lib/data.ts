@@ -275,4 +275,4 @@ export const recruiterBannerData: RecruiterBannerData[] = [
         backgroundColor: ["#e92d24"],
         companyWhy: "Health tech is a passion of mine as its important to me I make a difference.",
     }
-] as const;
+];
