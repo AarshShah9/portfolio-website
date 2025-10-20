@@ -43,20 +43,45 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Software & Geomatics Engineer - Relectric Car Team",
+        title: "Software Engineering",
         location: "Calgary, AB",
         description:
-            "Electrifying a 1966 Volvo P220.",
-        icon: React.createElement(FaReact),
-        date: "Jan 2022 - Dec 2022",
+            "3.92/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2024)." +
+            " Extra-Curriculars: TechStartUCalgary, Relectric",
+        icon: React.createElement(LuGraduationCap),
+        date: "2021 - Present",
     },
     {
-        title: "Data & Analytics Intern - Olsen Consulting",
+        title: "Software Engineer, Intern - MedMe Health (YC W21)",
         location: "Calgary, AB",
         description:
-            "Creating custom SQL integrations & a data portal using Python, Tkinter, and OpenAI.",
-        icon: React.createElement(FaPython),
-        date: "June 2022 - Aug 2022",
+            "Writing full stack features to support pharmacists to become community healthcare hubs.",
+        icon: React.createElement(FaReact),
+        date: "May 2025 - Aug 2025",
+    },
+    {
+        title: "Undergraduate Researcher - SE-ALL Lab (U of C)",
+        location: "Calgary, AB",
+        description:
+            "Leading research on using LLMs to support software engineers with ADHD. Results accepted to 40th IEEE/ACM International Conference on Automated Software Engineering, ASE 2025.",
+        icon: React.createElement(FaReact),
+        date: "May 2025 - Aug 2025",
+    },
+    {
+        title: "President - Tech Start UCalgary",
+        location: "Calgary, AB",
+        description:
+            "Building a space for 200+ student entrepreneurs to create innovative, cutting-edge startups that solve real problems.",
+        icon: React.createElement(FaReact),
+        date: "May 2024 - May 2025",
+    },
+    {
+        title: "Software Engineer, Intern - Arcurve Inc.",
+        location: "Calgary, AB",
+        description:
+            "Mission critical client project using .NET, C#, and MS SQL. As well as Python and Databricks for data engineering.",
+        icon: React.createElement(FaReact),
+        date: "May 2024 - April 2025",
     },
     {
         title: "Software Engineer, Intern - Arcurve Inc.",
@@ -75,45 +100,20 @@ export const experiencesData = [
         date: "Sept 2023 - June 2024",
     },
     {
-        title: "Software Engineer, Intern - Arcurve Inc.",
+        title: "Software & Geomatics Engineer - Relectric Car Team",
         location: "Calgary, AB",
         description:
-            "Mission critical client project using .NET, C#, and MS SQL. As well as Python and Databricks for data engineering.",
+            "Electrifying a 1966 Volvo P220.",
         icon: React.createElement(FaReact),
-        date: "May 2024 - Dec 2024",
+        date: "Jan 2022 - Dec 2022",
     },
     {
-        title: "President - Tech Start UCalgary",
+        title: "Data & Analytics Intern - Olsen Consulting",
         location: "Calgary, AB",
         description:
-            "Building a space for 200+ student entrepreneurs to create innovative, cutting-edge startups that solve real problems.",
-        icon: React.createElement(FaReact),
-        date: "May 2024 - May 2025",
-    },
-    {
-        title: "Undergraduate Researcher - SE-ALL Lab (U of C)",
-        location: "Calgary, AB",
-        description:
-            "Leading research on using LLMs to support software engineers with ADHD. Results accepted to 40th IEEE/ACM International Conference on Automated Software Engineering, ASE 2025.",
-        icon: React.createElement(FaReact),
-        date: "May 2025 - Aug 2025",
-    },
-    {
-        title: "Software Engineer, Intern - MedMe Health (YC W21)",
-        location: "Calgary, AB",
-        description:
-            "Writing full stack features to support pharmacists to become community healthcare hubs.",
-        icon: React.createElement(FaReact),
-        date: "May 2025 - Aug 2025",
-    },
-    {
-        title: "Software Engineering",
-        location: "Calgary, AB",
-        description:
-            "3.92/4.00 GPA. Schulich School of Engineering Deans List (2021 - 2024)." +
-            " Extra-Curriculars: TechStartUCalgary, Relectric",
-        icon: React.createElement(LuGraduationCap),
-        date: "2021 - Present",
+            "Creating custom SQL integrations & a data portal using Python, Tkinter, and OpenAI.",
+        icon: React.createElement(FaPython),
+        date: "June 2022 - Aug 2022",
     },
 ];
 
@@ -251,4 +251,28 @@ export const skillsData = [
     "Figma",
     "HTML",
     "CSS",
+] as const;
+
+export type RecruiterBannerData = {
+    name: string;
+    colors: string[];
+    backgroundColor: string[];
+    companyWhy?: string;
+    demoLink?: string;
+}
+
+export const recruiterBannerData: RecruiterBannerData[] = [
+    {
+        name: "figma",
+        // figmas colors: #f24e1e, #ff7262, #a259ff, #1abcfe, #0acf83
+        colors: ["#f24e1e", "#ff7262", "#a259ff", "#1abcfe", "#0acf83"],
+        backgroundColor: ["#a259ff"],
+        companyWhy: "I love building pixel perfect designs and am excited to join a company that has enabled me to do so.",
+    },
+    {
+        name: "abridge",
+        colors: ["#e92d24", "#faf5f2"],
+        backgroundColor: ["#e92d24"],
+        companyWhy: "Health tech is a passion of mine as its important to me I make a difference.",
+    }
 ] as const;
