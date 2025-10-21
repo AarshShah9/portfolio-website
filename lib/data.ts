@@ -276,4 +276,11 @@ export const recruiterBannerData: RecruiterBannerData[] = [
         companyWhy: "Health tech is a passion of mine as its important to me I make a difference.",
         demoLink: "https://youtu.be/tctU8fHhDbk"
     },
+    {
+        name: "glean",
+        colors: ["#343ced", "#ffffff"],
+        backgroundColor: ["#343ced"],
+        companyWhy: "I'm drawn to Glean's mission to unify company knowledge and turn information into instant insight.",
+
+    }
 ];
