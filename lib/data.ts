@@ -282,5 +282,35 @@ export const recruiterBannerData: RecruiterBannerData[] = [
         backgroundColor: ["#343ced"],
         companyWhy: "I'm drawn to Glean's mission to unify company knowledge and turn information into instant insight.",
 
-    }
+    },
+    {
+        name: "replit",
+        colors: ["#F26207", "#0E1525", "#FFFFFF"],
+        backgroundColor: ["#0E1525", "#F26207"],
+    },
+    {
+        name: "kognitos",
+        colors: ["#f2fb9b", "#FFFFFF", "#000000"],
+        backgroundColor: ["#868783"],
+    },
+    {
+        name: "rogo",
+        colors: ["#f5f2eb", "#135b44"],
+        backgroundColor: ["#135b44"],
+    },
+    {
+        name: "provision",
+        colors: ["#f4cc16"],
+        backgroundColor: ["#130f03"],
+    },
+    {
+        name: "asana",
+        colors: ["#ff574a", "#ffeaec", "#680131"],
+        backgroundColor: ["#ff574a"],
+    },
+    {
+        name: "candid",
+        colors: ["#2a1001", "#0651c8", "#a224ff", "#df54f9"],
+        backgroundColor: ["#2a1001", "#0651c8", "#a224ff", "#df54f9"],
+    },
 ];
