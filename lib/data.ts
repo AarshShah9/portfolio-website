@@ -312,5 +312,10 @@ export const recruiterBannerData: RecruiterBannerData[] = [
         name: "candid",
         colors: ["#2a1001", "#0651c8", "#a224ff", "#df54f9"],
         backgroundColor: ["#2a1001", "#0651c8", "#a224ff", "#df54f9"],
-    },
+    },{
+        name: "ycombinator",
+        colors: ["#f26422", "#FFFFFF"],
+        backgroundColor: ["#f26422"],
+        companyWhy: "I'm exicted to join YC's next batch!",
+    }
 ];
