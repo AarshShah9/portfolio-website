@@ -11,6 +11,7 @@ export default function RecruiterBanner() {
   const [companyBackgroundColor, setCompanyBackgroundColor] = useState<string[]>(['#a259ff']);
   const [companyWhy, setCompanyWhy] = useState<string | null>(null);
   const [demoLink, setDemoLink] = useState<string | null>(null);
+  const [customMessage, setCustomMessage] = useState<string | null>(null);
   const [isVisible, setIsVisible] = useState(false);
   const bannerRef = useRef<HTMLDivElement | null>(null);
 
@@ -33,6 +34,7 @@ export default function RecruiterBanner() {
             `Thanks for checking out my portfolio, I'd love to join ${formattedName} and contribute to your mission.`;
         setCompanyWhy(why);
         setDemoLink(config.demoLink ?? null);
+        setCustomMessage(config.customMessage ?? null);
       }
       setIsVisible(true);
     }
@@ -102,7 +104,7 @@ export default function RecruiterBanner() {
         </div>
 
         <p className="font-medium">
-          👋 Hello {companyName} team! {companyWhy}
+          {customMessage ? customMessage : `👋 Hello ${companyName} team! ${companyWhy}`}
           {normalizedDemoLink && (
             <>
               {" "}

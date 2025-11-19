@@ -259,6 +259,7 @@ export type RecruiterBannerData = {
     backgroundColor: string[];
     companyWhy?: string;
     demoLink?: string;
+    customMessage?: string;
 }
 
 export const recruiterBannerData: RecruiterBannerData[] = [
@@ -317,5 +318,11 @@ export const recruiterBannerData: RecruiterBannerData[] = [
         colors: ["#f26422", "#FFFFFF"],
         backgroundColor: ["#f26422"],
         companyWhy: "I'm exicted to join YC's next batch!",
+    },
+    {
+        name: "stanford",
+        colors: ["#8d181b", "#145f54", "#ffffff"],
+        backgroundColor: ["#8d181b"],
+        customMessage: "Hello Stanford Selection Committee! I'm excited to join Stanford's MS in CS program!",
     }
 ];
